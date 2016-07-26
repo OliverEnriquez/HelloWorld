@@ -18,4 +18,8 @@ public class HelloWorld {
         System.out.println("Hello world");
     }
     
+    public String HelloWorld(){
+        return "Hello World";
+    }
+    
 }
