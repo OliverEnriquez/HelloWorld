@@ -15,11 +15,12 @@ public class HelloWorld {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        HelloWorldPrint();
+   
     }
     
-    public String HelloWorld(){
-        return "Hello World";
+    public static void HelloWorldPrint(){
+            System.out.println("Hello world");
     }
     
 }
